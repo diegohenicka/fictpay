@@ -7,6 +7,11 @@
 - Docker
 - VSCode
 
+#### Util commands
+```bash
+chmod +x .docker/start.sh
+```
+
 #### Change Log
 - Create README
 - Create .gitignore
@@ -29,3 +34,12 @@
       - Change name
       - Add our extensions in customizations
 ---
+- Initialize npm project
+- Install dev dependencies
+  -  ``` ts-node typescript jest @types/jest @swc/cli @swc/core @swc/jest ```
+- Create and configure <code>tsconfig.json</code>
+- Create and configure <code>jest.config.json</code>
+  - Change transform to use swc
+  - Configure <code>rootDir</code> to ./src
+- Create <code>src</code> folder
+- Create and configure <code>.swcrc</code>
